@@ -1,0 +1,45 @@
+#main{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../media/intro4.jpg);
+    text-align:center;
+    overflow: hidden;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flyintext{
+    position:absolute;
+    list-style:none;
+    top:25vh;
+    left:36.5vw;
+}
+
+.flyintext li{
+    display:inline-block;
+    color:white;
+    font-family:open sans;
+    font-weight:300;
+    font-size:5em;
+    opacity:1;
+    transition:all 2.5s ease;
+}
+
+.flyintext li:last-child{
+    margin-left:0px;
+}
+
+.flyintext.hidden li{
+    opacity:0;
+}
+
+.flyintext.hidden li:nth-child(1){transform:translateX(-200px) translateY(-200px)}
+.flyintext.hidden li:nth-child(2){transform:translateX(-400px) translateY(400px)}
+.flyintext.hidden li:nth-child(3){transform:translateX(250px) translateY(100px)}
+.flyintext.hidden li:nth-child(4){transform:translateX(-100px) translateY(300px)}
+.flyintext.hidden li:nth-child(5){transform:translateX(-300px) translateY(-320px)}
+.flyintext.hidden li:nth-child(6){transform:translateX(-50px) translateY(-150px)}
+.flyintext.hidden li:nth-child(7){transform:translateX(-550px) translateY(450px)}
+.flyintext.hidden li:nth-child(8){transform:translateX(550px) translateY(450px)}
