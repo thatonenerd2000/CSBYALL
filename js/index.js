@@ -4,5 +4,5 @@ $(document).ready(function(){
     $('.slied').paroller();
     setTimeout(function(){
         $(".flyintext").removeClass("hidden");
-    },500)
+    },1000)
 })
