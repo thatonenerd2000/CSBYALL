@@ -8,5 +8,7 @@ $(document).ready(function(){
     $("#cstext").typeIt({
         speed:200,
         lifeLike:true
-    })
+    });
+    $('.scrollspy').scrollSpy();
+     $("#main").paroller();
 })
