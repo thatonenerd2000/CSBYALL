@@ -17,6 +17,23 @@
 }
 
 #what{
-    height:50vh;
     width:100vw;
+}
+
+.shade{
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4));
+}
+
+#future{
+    position:relative;
+    font-family: 'Lora', serif;
+}
+
+.future{
+    color:green;
+}
+
+#video{
+    border-style: double;
+    border-width: 10px;
 }

@@ -1,4 +1,11 @@
+
+
 $(document).ready(function(){
+    
+    if($(window).width() <= 800){
+        window.location.href="mobiledevelopment.html"    
+    }
+    
     $(".button-collapse").sideNav();
     $('.slider').slider({height:innerHeight,indicators:false});
     $('.slied').paroller();
@@ -9,6 +16,10 @@ $(document).ready(function(){
         speed:200,
         lifeLike:true
     });
-    $('.scrollspy').scrollSpy();
-     $("#main").paroller();
+    $('.scrollspy').scrollSpy({
+        scrollOffset:380
+    });
+    $("#main").paroller();
+    $("#title , #description , #future , #attention , #poweredby").scrolla();
+    
 })
