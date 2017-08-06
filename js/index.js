@@ -2,9 +2,6 @@
 
 $(document).ready(function(){
     
-    if($(window).width() <= 1000){
-        window.location.href="mobiledevelopment.html"    
-    }
     
     $(".button-collapse").sideNav();
     $('.slider').slider({height:innerHeight,indicators:false});
@@ -20,6 +17,8 @@ $(document).ready(function(){
         scrollOffset:380
     });
     $("#main").paroller();
-    $("#title , #description , #future , #attention , #poweredby").scrolla();
+    $("#title , #description , #future , #attention , #poweredby").scrolla({
+        mobile:true
+    });
     
 })
