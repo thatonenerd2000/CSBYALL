@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
     
-    if($(window).width() <= 800){
+    if($(window).width() <= 1000){
         window.location.href="mobiledevelopment.html"    
     }
     
