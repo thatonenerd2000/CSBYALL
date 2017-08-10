@@ -10,7 +10,7 @@ $(document).ready(function(){
         $(".flyintext").removeClass("hidden");
     },1000);
     $("#cstext").typeIt({
-        speed:200,
+        speed:150,
         lifeLike:true
     });
     $('.scrollspy').scrollSpy({
