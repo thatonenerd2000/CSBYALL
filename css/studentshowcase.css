@@ -44,3 +44,8 @@ body{
 #titled{
     font-family: 'Bitter', serif;
 }
+
+.one{
+    border-width: 10px solid;
+    border-color:black;
+}
