@@ -1,0 +1,22 @@
+#main{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../media/subg.png);
+    text-align:center;
+    overflow: hidden;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#maintext{
+    position:relative;
+    top:30vh;
+    color:white;
+}
+
+#formstyle{
+    margin-top:50px;
+    text-align:center;
+}
