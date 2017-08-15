@@ -1,0 +1,34 @@
+#main{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../media/about.jpg);
+    text-align:center;
+    overflow: hidden;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#partner{
+    position:relative;
+    text-align:center;
+    top:20vh;
+}
+
+#plus{
+    transition: all 3s;
+}
+
+#plus:hover{
+    transform:rotate(360deg);
+}
+
+#down{
+    transition: all 3s;
+}
+
+#down:hover{
+    transform:rotate(360deg);
+}
+

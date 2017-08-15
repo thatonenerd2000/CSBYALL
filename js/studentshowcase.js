@@ -1,3 +1,5 @@
 $(document).ready(function(){
-    $("#title, .si").scrolla();
+    $("#title, .si").scrolla({
+        mobile:true
+    });
 })
