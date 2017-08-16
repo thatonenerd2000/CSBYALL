@@ -3,6 +3,7 @@ $(document).ready(function(){
     $(".maintext , .pulseup").scrolla({
         mobile:true
     });
+    $(".scrollspy").scrollSpy(); 
 });
 
 
