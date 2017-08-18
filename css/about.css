@@ -2,7 +2,7 @@
     position:relative;
     width:100vw;
     height:100vh;
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../media/about.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../media/about.jpg);
     text-align:center;
     overflow: hidden;
     background-size:cover;

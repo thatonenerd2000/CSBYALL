@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title>#csbyall</title>
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lora" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/animate.css">
+        <link type="text/css" rel="stylesheet" href="css/contact.css">
+        
+        <script>
+        if (screen.width <= 500) {
+            document.location = "mobiledevelopment.html";
+        }
+        </script>
+        
+    </head>
+    
+    <body>
+        
+        <div class="z-depth-5" id="main" data-paroller-factor="0.4" data-paroller-direction="vertical">
+            <!--The Navbar Start-->
+            <nav style="position:absolute;" class="transparent bar">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo center csbyall">#<span style="color:#EA195B ; font-family: 'Lora', serif;">CS</span><span style="font-family: 'Indie Flower', cursive;">BY</span><span style="color:#49B5DA; font-family: 'Lora', serif;">ALL</span></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="left hide-on-med-and-down">
+                        <li><a href="studentshowcase.html">Student Showcase</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="studentshowcase.html">Student Showcase</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!--The Navbar end-->
+            <div style="text-align:center;" id="question">
+                <h4 class="scrolla" data-animate="fadeInDown" data-duration="2.0s" data-delay="0.1s">It's Ok to have questions, <br>We are here to answer</h4>
+                <a class="btn btn-floating btn-small pulse scrolla" href="#form" data-animate="fadeInUp" data-duration="2.0s" data-delay="0.1s" id="titlepulse"><i class="small material-icons ">arrow_drop_down_circle</i></a>
+            </div>
+            
+        </div>
+        <div class="fixed-action-btn toolbar" >
+            <a class="btn-floating btn-large green ">
+              <i class="large material-icons ">menu</i>
+            </a>
+            <ul>
+                <li class="waves-effect waves-light"><a href="studentshowcase.html">Student Showcase</a></li>
+                <li class="waves-effect waves-light"><a href="about.html">About</a></li>
+                <li class="waves-effect waves-light active"><a href="contact.html">Contact Us</a></li>
+                <li class="waves-effect waves-light"><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </div>
+        
+        <div class="container section scrollspy" style="text-align:center;" id="form">
+            <br>
+            <h6>Please fill in the form below with any related question with #<span style="color:#EA195B; font-family: 'Lora', serif;">CS</span><span style="font-family: 'Indie Flower', cursive;">BY</span><span style="color:#49B5DA; font-family: 'Lora', serif;">ALL</span></h6><br><hr>
+            <br>
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                    <div class="row">
+                    <div class="input-field col s12">
+                      <input id="school" type="text" class="validate">
+                      <label for="school">School name (optional)</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="input-field">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">How can we help?</label>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+                <a id="submit" class="waves-effect waves-light btn">Submit</a>
+        </div>
+        
+        
+        
+        
+        
+        
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="materialize/js/materialize.js"></script>
+        <script type="text/javascript" src="js/jquery.paroller.js"></script>
+        <script type="text/javascript" src="js/typeit.js"></script>
+        <script type="text/javascript" src="js/scrolla.jquery.js"></script>
+        <script type="text/javascript" src="js/contact.js"></script>
+    </body>
+
+</html>

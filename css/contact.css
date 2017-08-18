@@ -2,7 +2,7 @@
     position:relative;
     width:100vw;
     height:100vh;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../media/intro4.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../media/cntct.jpg);
     text-align:center;
     overflow: hidden;
     background-size:cover;
@@ -10,26 +10,9 @@
     background-repeat: no-repeat;
 }
 
-#csbyall{
+#question{
     position:relative;
-    top:30vh;
+    top:35vh;
     color:white;
-}
-
-#what{
-    width:100vw;
-}
-
-#future{
-    position:relative;
     font-family: 'Lora', serif;
-}
-
-.future{
-    color:green;
-}
-
-#video{
-    border-style: double;
-    border-width: 10px;
 }
